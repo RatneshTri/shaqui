@@ -5,7 +5,7 @@
         </div>
         <div class="grid sm:flex sm:flex-row">
             <div class="w-full sm:w-1/2">
-                <div class="grid grid-cols-2 gap-1 h-full max-w-screen-xl w-full m-auto">
+                <div class="grid grid-cols-2 gap-2 h-full max-w-screen-xl w-full m-auto">
                     <div>
                         <img class="h-full max-w-full "
                             src="https://img.freepik.com/premium-photo/silhouette-engineer-worker-building-site-construction-site-sunset-evening-time_29315-628.jpg?w=1380"
@@ -52,9 +52,6 @@
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
-
-                        <!-- If we need scrollbar -->
-                        {{-- <div class="swiper-scrollbar"></div> --}}
                     </div>
                 </div>
             </div>

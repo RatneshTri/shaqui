@@ -1,122 +1,147 @@
-<div class="max-w-screen-xl ms-auto bg-gray-100">
-    <div class="max-w-screen-xl ms-auto bg-gray-100">
+<div class="max-w-screen-xl mx-auto bg-gray-100 py-10">
+    <div class="max-w-screen-xl mx-auto bg-gray-100">
         <div class="flex items-center justify-center text-4xl lg:text-6xl">
             <p><span class="font-bold">Customer</span> Voices: <br><span class="font-bold"> Hear what </span>
                 they
                 says!</p>
         </div>
     </div>
-    <div class="swiper-testimonial1 mx-2 p-2">
-        <div #swiperRef="" class="swiper mySwiper_testimonial_lower">
-            <div class="swiper-wrapper swiper_custom">
-                <div class="swiper-slide swiper_testimonial" data-active-index="0">
-                    <img src="https://img.freepik.com/premium-photo/silhouette-engineer-worker-building-site-construction-site-sunset-evening-time_29315-628.jpg?w=1380"
-                        alt="" class="rounded-full">
+    <div class="mx-2 p-2 mt-10">
+        <div class="" id="feedback-boxes">
+            <div class="flex items-center justify-center gap-10">
+                <div class="slide-image-box w-[75px] h-[75px] rounded-full overflow-hidden border-2 border-yellow-300"
+                    data-index="0">
+                    <img src="https://picsum.photos/seed/picsum/200/300?random=1" alt=""
+                        class="h-full w-full object-cover object-center">
                 </div>
-                <div class="swiper-slide swiper_testimonial" data-active-index="1">
-                    <img src="https://img.freepik.com/premium-photo/silhouette-engineer-worker-building-site-construction-site-sunset-evening-time_29315-628.jpg?w=1380"
-                        alt="" class="rounded-full">
+                <div class="slide-image-box w-[75px] h-[75px] rounded-full overflow-hidden mt-10" data-index="1">
+                    <img src="https://picsum.photos/seed/picsum/200/300?random=2" alt=""
+                        class="h-full w-full object-cover object-center">
                 </div>
-                <div class="swiper-slide swiper_testimonial" data-active-index="2">
-                    <img src="https://img.freepik.com/premium-photo/silhouette-engineer-worker-building-site-construction-site-sunset-evening-time_29315-628.jpg?w=1380"
-                        alt="" class="rounded-full">
+                <div class="slide-image-box w-[75px] h-[75px] rounded-full overflow-hidden" data-index="2">
+                    <img src="https://picsum.photos/seed/picsum/200/300?random=3" alt=""
+                        class="h-full w-full object-cover object-center">
                 </div>
-                <div class="swiper-slide swiper_testimonial" data-active-index="3">
-                    <img src="https://img.freepik.com/premium-photo/silhouette-engineer-worker-building-site-construction-site-sunset-evening-time_29315-628.jpg?w=1380"
-                        alt="" class="rounded-full">
+                <div class="slide-image-box w-[75px] h-[75px] rounded-full overflow-hidden mt-10" data-index="3">
+                    <img src="https://picsum.photos/seed/picsum/200/300?random=4" alt=""
+                        class="h-full w-full object-cover object-center">
                 </div>
-                <div class="swiper-slide swiper_testimonial" data-active-index="4">
-                    <img src="https://img.freepik.com/premium-photo/silhouette-engineer-worker-building-site-construction-site-sunset-evening-time_29315-628.jpg?w=1380"
-                        alt="" class="rounded-full">
+                <div class="slide-image-box w-[75px] h-[75px] rounded-full overflow-hidden" data-index="4">
+                    <img src="https://picsum.photos/seed/picsum/200/300?random=5" alt=""
+                        class="h-full w-full object-cover object-center">
                 </div>
-                <div class="swiper-slide swiper_testimonial" data-active-index="5">
-                    <img src="https://img.freepik.com/premium-photo/silhouette-engineer-worker-building-site-construction-site-sunset-evening-time_29315-628.jpg?w=1380"
-                        alt="" class="rounded-full">
+                <div class="slide-image-box w-[75px] h-[75px] rounded-full overflow-hidden mt-10" data-index="5">
+                    <img src="https://picsum.photos/seed/picsum/200/300?random=6" alt=""
+                        class="h-full w-full object-cover object-center">
                 </div>
-                <div class="swiper-slide swiper_testimonial" data-active-index="6">
-                    <img src="https://img.freepik.com/premium-photo/silhouette-engineer-worker-building-site-construction-site-sunset-evening-time_29315-628.jpg?w=1380"
-                        alt="" class="rounded-full">
+                <div class="slide-image-box w-[75px] h-[75px] rounded-full overflow-hidden" data-index="6">
+                    <img src="https://picsum.photos/seed/picsum/200/300?random=6" alt=""
+                        class="h-full w-full object-cover object-center">
                 </div>
             </div>
         </div>
-        <div class="swiper-button-next">
-            <i class="fa-solid fa-caret-right"></i>
-        </div>
-        <div class="swiper-button-prev">
-            <i class="fa-solid fa-caret-left"></i>
-        </div>
-        <div class="swiper-pagination"></div>
+
     </div>
 
     <div class="mx-auto h-20 w-20 flex items-center justify-center">
         <img src="{{ asset('images/icon/quote.png') }}" alt="quoteIcon">
     </div>
 
-    <div class="testimonial-desc1">
-        <div class="bloquote-boxes1 flex items-center justify-center flex-col" id="testimonial-desc1">
-            <p class="text-2xl font-bold">Robert A. Voltaire</p>
-            <p class="text-2xl font-semibold">Voltaire Gallery</p>
-            <p class="bloquote1 active mt-2 text-lg text-wrap text-center">
-                Working with Shaqui has been changer for our brand. Their expertise in delivering high-quality custom
-                apparel has elevated out brand identity and customer experience. The convenience of their
-                print-on-demand model has allowed us to focus on our core strengths, knowing that our orders are being
-                handled efficiently and with great attention to detail.
-            </p>
+    <div class="swiperfeedback swiper my-10" id="feedback-section">
+        <div class="swiper-wrapper">
 
-            <p class="text-2xl font-bold">Robert A. Voltaire</p>
-            <p class="text-2xl font-semibold">Voltaire Gallery</p>
-            <p class="bloquote1 mt-2 text-lg text-wrap text-center">
-                Working with Shaqui has been changer for our brand. Their expertise in delivering high-quality custom
-                apparel has elevated out brand identity and customer experience. The convenience of their
-                print-on-demand model has allowed us to focus on our core strengths, knowing that our orders are being
-                handled efficiently and with great attention to detail.
-            </p>
-
-            <p class="text-2xl font-bold">Robert A. Voltaire</p>
-            <p class="text-2xl font-semibold">Voltaire Gallery</p>
-            <p class="bloquote1 mt-2 text-lg text-wrap text-center">
-                Working with Shaqui has been changer for our brand. Their expertise in delivering high-quality custom
-                apparel has elevated out brand identity and customer experience. The convenience of their
-                print-on-demand model has allowed us to focus on our core strengths, knowing that our orders are being
-                handled efficiently and with great attention to detail.
-            </p>
-
-            <p class="text-2xl font-bold">Robert A. Voltaire</p>
-            <p class="text-2xl font-semibold">Voltaire Gallery</p>
-            <p class="bloquote1 mt-2 text-lg text-wrap text-center">
-                Working with Shaqui has been changer for our brand. Their expertise in delivering high-quality custom
-                apparel has elevated out brand identity and customer experience. The convenience of their
-                print-on-demand model has allowed us to focus on our core strengths, knowing that our orders are being
-                handled efficiently and with great attention to detail.
-            </p>
-
-            <p class="text-2xl font-bold">Robert A. Voltaire</p>
-            <p class="text-2xl font-semibold">Voltaire Gallery</p>
-            <p class="bloquote1 mt-2 text-lg text-wrap text-center">
-                Working with Shaqui has been changer for our brand. Their expertise in delivering high-quality custom
-                apparel has elevated out brand identity and customer experience. The convenience of their
-                print-on-demand model has allowed us to focus on our core strengths, knowing that our orders are being
-                handled efficiently and with great attention to detail.
-            </p>
-
-            <p class="text-2xl font-bold">Robert A. Voltaire</p>
-            <p class="text-2xl font-semibold">Voltaire Gallery</p>
-            <p class="bloquote1 mt-2 text-lg text-wrap text-center">
-                Working with Shaqui has been changer for our brand. Their expertise in delivering high-quality custom
-                apparel has elevated out brand identity and customer experience. The convenience of their
-                print-on-demand model has allowed us to focus on our core strengths, knowing that our orders are being
-                handled efficiently and with great attention to detail.
-            </p>
-
-            <p class="text-2xl font-bold">Robert A. Voltaire</p>
-            <p class="text-2xl font-semibold">Voltaire Gallery</p>
-            <p class="bloquote1 mt-2 text-lg text-wrap text-center">
-                Working with Shaqui has been changer for our brand. Their expertise in delivering high-quality custom
-                apparel has elevated out brand identity and customer experience. The convenience of their
-                print-on-demand model has allowed us to focus on our core strengths, knowing that our orders are being
-                handled efficiently and with great attention to detail.
-            </p>
+            <div class="swiper-slide">
+                <p class="text-2xl font-bold">Robert A. Voltaire</p>
+                <p class="text-2xl font-semibold">Voltaire Gallery</p>
+                <p class="bloquote1 mt-2 text-lg text-wrap text-center">
+                    Working with Shaqui has been changer for our brand. Their expertise in delivering high-quality
+                    custom
+                    apparel has elevated out brand identity and customer experience. The convenience of their
+                    print-on-demand model has allowed us to focus on our core strengths, knowing that our orders are
+                    being
+                    handled efficiently and with great attention to detail.
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <p class="text-2xl font-bold">Robert A. Voltaire</p>
+                <p class="text-2xl font-semibold">Voltaire Gallery</p>
+                <p class="bloquote1 mt-2 text-lg text-wrap text-center">
+                    Working with Shaqui has been changer for our brand. Their expertise in delivering high-quality
+                    custom
+                    apparel has elevated out brand identity and customer experience. The convenience of their
+                    print-on-demand model has allowed us to focus on our core strengths, knowing that our orders are
+                    being
+                    handled efficiently and with great attention to detail.
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <p class="text-2xl font-bold">Robert A. Voltaire</p>
+                <p class="text-2xl font-semibold">Voltaire Gallery</p>
+                <p class="bloquote1 mt-2 text-lg text-wrap text-center">
+                    Working with Shaqui has been changer for our brand. Their expertise in delivering high-quality
+                    custom
+                    apparel has elevated out brand identity and customer experience. The convenience of their
+                    print-on-demand model has allowed us to focus on our core strengths, knowing that our orders are
+                    being
+                    handled efficiently and with great attention to detail.
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <p class="text-2xl font-bold">Robert A. Voltaire</p>
+                <p class="text-2xl font-semibold">Voltaire Gallery</p>
+                <p class="bloquote1 mt-2 text-lg text-wrap text-center">
+                    Working with Shaqui has been changer for our brand. Their expertise in delivering high-quality
+                    custom
+                    apparel has elevated out brand identity and customer experience. The convenience of their
+                    print-on-demand model has allowed us to focus on our core strengths, knowing that our orders are
+                    being
+                    handled efficiently and with great attention to detail.
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <p class="text-2xl font-bold">Robert A. Voltaire</p>
+                <p class="text-2xl font-semibold">Voltaire Gallery</p>
+                <p class="bloquote1 mt-2 text-lg text-wrap text-center">
+                    Working with Shaqui has been changer for our brand. Their expertise in delivering high-quality
+                    custom
+                    apparel has elevated out brand identity and customer experience. The convenience of their
+                    print-on-demand model has allowed us to focus on our core strengths, knowing that our orders are
+                    being
+                    handled efficiently and with great attention to detail.
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <p class="text-2xl font-bold">Robert A. Voltaire</p>
+                <p class="text-2xl font-semibold">Voltaire Gallery</p>
+                <p class="bloquote1 mt-2 text-lg text-wrap text-center">
+                    Working with Shaqui has been changer for our brand. Their expertise in delivering high-quality
+                    custom
+                    apparel has elevated out brand identity and customer experience. The convenience of their
+                    print-on-demand model has allowed us to focus on our core strengths, knowing that our orders are
+                    being
+                    handled efficiently and with great attention to detail.
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <p class="text-2xl font-bold">Robert A. Voltaire</p>
+                <p class="text-2xl font-semibold">Voltaire Gallery</p>
+                <p class="bloquote1 mt-2 text-lg text-wrap text-center">
+                    Working with Shaqui has been changer for our brand. Their expertise in delivering high-quality
+                    custom
+                    apparel has elevated out brand identity and customer experience. The convenience of their
+                    print-on-demand model has allowed us to focus on our core strengths, knowing that our orders are
+                    being
+                    handled efficiently and with great attention to detail.
+                </p>
+            </div>
         </div>
+        <button class="swiper-button-next testiNextBtn">
+            <img src="{{ asset('images/icon/right.png') }}" alt="nexticon">
+        </button>
+        <button class="swiper-button-prev testiPrevBtn">
+            <img src="{{ asset('images/icon/back-button.png') }}" alt="backicon">
+        </button>
+        <div class="swiper-pagination"></div>
     </div>
 </div>
 <div class="bg-black w-full max-w-7xl m-auto">
@@ -127,51 +152,29 @@
 
 
 <script>
-    const testimonialBoxes1 = document.querySelectorAll(
-        "#testimonial-desc1 .bloquote1"
-    );
-    // console.log(testimonialBoxes1);
-    const Titleheading1 = document.querySelectorAll(
-        "#title-heading1 .title-richard1"
-    );
-    // console.log(Titleheading1);
-    const titleParagrph1 = document.querySelectorAll("#title-paragraph1 .gems1");
-    // console.log(titleParagrph1);
+    const feedbackImageBoxes = document.querySelectorAll('#feedback-boxes .slide-image-box');
 
-    const carouselLeftimage = document.querySelectorAll(
-        "#mainleft_image .main_image"
-    );
+    const feedbackSwiperHandler = (event) => {
+        feedbackImageBoxes.forEach(element => {
+            if (element.classList.contains('border-2') && element.classList.contains('border-yellow-300')) {
+                element.classList.remove('border-2')
+                element.classList.remove('border-yellow-300')
+            }
+            const IndexValue = event.activeIndex;
+            // constIndexValue = activeIndex;
 
-    var mySwiper_testimonial_lower = new Swiper(".mySwiper_testimonial_lower", {
-        slidesPerView: 7,
+            feedbackImageBoxes[IndexValue].classList.add('border-2');
+            feedbackImageBoxes[IndexValue].classList
+                .add('border-yellow-300');
+        });
+    }
+    const feedbackSwiper = new Swiper(".swiperfeedback", {
+        slidesPerView: 1,
         centeredSlides: true,
         spaceBetween: 10,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
-        },
-        // loop: true,
-        breakpoints: {
-            300: {
-                slidesPerView: 2,
-                spaceBetween: 10,
-            },
-            350: {
-                slidesPerView: 3,
-                spaceBetween: 10,
-            },
-            1024: {
-                slidesPerView: 5,
-                spaceBetween: 10,
-            },
-            1200: {
-                slidesPerView: 7,
-                spaceBetween: 10,
-            },
         },
         autoplay: {
             // delay: 3000,
@@ -179,103 +182,16 @@
         },
         simulateTouch: false,
         on: {
-            init: function(event) {
-                const activeSlide = event.slides.filter((item) => {
-                    return item.classList.contains("swiper-slide-active") == true;
-                });
-
-                testimonialBoxes1.forEach((item) => {
-                    item.classList.remove("active");
-                });
-
-                Titleheading1.forEach((item) => {
-                    item.classList.remove("active");
-                });
-
-                titleParagrph1.forEach((item) => {
-                    item.classList.remove("active");
-                });
-
-                carouselLeftimage.forEach((item) => {
-                    item.classList.remove("active");
-                });
-
-                testimonialBoxes1[activeSlide[0].dataset.activeIndex].classList.add(
-                    "active"
-                );
-                Titleheading1[activeSlide[0].dataset.activeIndex].classList.add(
-                    "active"
-                );
-                titleParagrph1[activeSlide[0].dataset.activeIndex].classList.add(
-                    "active"
-                );
-                carouselLeftimage[activeSlide[0].dataset.activeIndex].classList.add(
-                    "active"
-                );
+            init: function(swiperEvent) {
+                feedbackSwiperHandler(swiperEvent)
             },
-        },
+        }
     });
 
 
-    mySwiper_testimonial_lower.on("slideChange", function(event) {
-        const activeSlide = event.slides.filter((item) => {
-            return item.classList.contains("swiper-slide-active") == true;
-        });
 
-        testimonialBoxes1.forEach((item) => {
-            item.classList.remove("active");
-        });
 
-        Titleheading1.forEach((item) => {
-            item.classList.remove("active");
-        });
-
-        titleParagrph1.forEach((item) => {
-            item.classList.remove("active");
-        });
-
-        carouselLeftimage.forEach((item) => {
-            item.classList.remove("active");
-        });
-
-        testimonialBoxes1[activeSlide[0].dataset.activeIndex].classList.add(
-            "active"
-        );
-        Titleheading1[activeSlide[0].dataset.activeIndex].classList.add("active");
-        titleParagrph1[activeSlide[0].dataset.activeIndex].classList.add("active");
-        carouselLeftimage[activeSlide[0].dataset.activeIndex].classList.add(
-            "active"
-        );
-    });
-
-    mySwiper_testimonial_lower.on("slideChangeTransitionStart", function(event) {
-        const activeSlide = event.slides.filter((item) => {
-            return item.classList.contains("swiper-slide-active") == true;
-        });
-
-        testimonialBoxes1.forEach((item) => {
-            item.classList.remove("active");
-        });
-
-        Titleheading1.forEach((item) => {
-            item.classList.remove("active");
-        });
-
-        titleParagrph1.forEach((item) => {
-            item.classList.remove("active");
-        });
-
-        carouselLeftimage.forEach((item) => {
-            item.classList.remove("active");
-        });
-
-        testimonialBoxes1[activeSlide[0].dataset.activeIndex].classList.add(
-            "active"
-        );
-        Titleheading1[activeSlide[0].dataset.activeIndex].classList.add("active");
-        titleParagrph1[activeSlide[0].dataset.activeIndex].classList.add("active");
-        carouselLeftimage[activeSlide[0].dataset.activeIndex].classList.add(
-            "active"
-        );
+    feedbackSwiper.on('slideChange', (event) => {
+        feedbackSwiperHandler(event)
     });
 </script>

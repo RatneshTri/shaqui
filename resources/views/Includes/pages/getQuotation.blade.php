@@ -85,7 +85,7 @@
 
 
             <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
+            {{-- <div class="swiper-scrollbar"></div> --}}
         </div>
 
         <button class="swiper-button-next getQNextBtn">
@@ -99,7 +99,7 @@
 
     <div class="h-full">
         <div
-            class="mt-10 mb-10 p-20 bg-[url('https://img.freepik.com/free-photo/heavy-machinery-used-construction-industry-engineering_23-2151307721.jpg?t=st=1716871493~exp=1716875093~hmac=c1a6ff1fc68a1cbc501fcaedf1e6f1e3b14942d221996547329084b7b989ff92&w=1380')] bg-no-repeat bg-cover">
+            class="mt-10 mb-10 p-20 bg-[url('https://img.freepik.com/free-photo/heavy-machinery-used-construction-industry-engineering_23-2151307721.jpg?t=st=1716871493~exp=1716875093~hmac=c1a6ff1fc68a1cbc501fcaedf1e6f1e3b14942d221996547329084b7b989ff92&w=1380')] bg-no-repeat bg-cover bg-blend-overlay">
             <div class="flex flex-col items-start justify-start">
                 <h1 class="font-normal text-base sm:text-2xl md:text-4xl lg:text-7xl mb-5">
                     Ready to build together?

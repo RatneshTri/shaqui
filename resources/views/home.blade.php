@@ -19,7 +19,6 @@
 
     {{-- <section>testmonials </section> --}}
     @include('Includes.pages.testimonials')
-    {{-- @include('Includes.pages.testimonials1') --}}
 
     {{-- <section>gallery</section> --}}
     @include('Includes.pages.gallery')
