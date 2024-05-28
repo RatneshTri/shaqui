@@ -80,7 +80,7 @@
                             <div class="relative h-96 p-4 w-auto object-cover"
                                 style="background-image: url(https://img.freepik.com/free-photo/industrial-crane-blue-sky_181624-30229.jpg?t=st=1715860429~exp=1715864029~hmac=d5092a52285865f240164b84bf1e0d1f434e1580241a6583966a4fa0ce9076b9&w=1380); background-repeat:  no-repeat; background-size: cover; background-position: center">
                                 <div
-                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 flex items-center p-4 justify-center group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all overflow-y-scroll overflow-x-hidden duration-300 overflow-auto no-scrollbar ">
+                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
                                         <div class="text-white">
                                             <h1 class="text-white font-semibold">Offset Printing
@@ -139,7 +139,7 @@
                             <div class="relative h-96 p-4 w-auto object-cover"
                                 style="background-image: url(https://img.freepik.com/free-photo/industrial-crane-blue-sky_181624-30229.jpg?t=st=1715860429~exp=1715864029~hmac=d5092a52285865f240164b84bf1e0d1f434e1580241a6583966a4fa0ce9076b9&w=1380); background-repeat:  no-repeat; background-size: cover; background-position: center">
                                 <div
-                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 flex items-center p-4 justify-center group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all overflow-y-scroll overflow-x-hidden duration-300 overflow-auto no-scrollbar ">
+                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
                                         <div class="text-white">
                                             <h1 class="text-white font-semibold">Offset Printing
@@ -198,7 +198,7 @@
                             <div class="relative h-96 p-4 w-auto object-cover"
                                 style="background-image: url(https://img.freepik.com/free-photo/industrial-crane-blue-sky_181624-30229.jpg?t=st=1715860429~exp=1715864029~hmac=d5092a52285865f240164b84bf1e0d1f434e1580241a6583966a4fa0ce9076b9&w=1380); background-repeat:  no-repeat; background-size: cover; background-position: center">
                                 <div
-                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 flex items-center p-4 justify-center group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all overflow-y-scroll overflow-x-hidden duration-300 overflow-auto no-scrollbar ">
+                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
                                         <div class="text-white">
                                             <h1 class="text-white font-semibold">Offset Printing
@@ -257,7 +257,7 @@
                             <div class="relative h-96 p-4 w-auto object-cover"
                                 style="background-image: url(https://img.freepik.com/free-photo/industrial-crane-blue-sky_181624-30229.jpg?t=st=1715860429~exp=1715864029~hmac=d5092a52285865f240164b84bf1e0d1f434e1580241a6583966a4fa0ce9076b9&w=1380); background-repeat:  no-repeat; background-size: cover; background-position: center">
                                 <div
-                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 flex items-center p-4 justify-center group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all overflow-y-scroll overflow-x-hidden duration-300 overflow-auto no-scrollbar ">
+                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
                                         <div class="text-white">
                                             <h1 class="text-white font-semibold">Offset Printing
@@ -316,7 +316,7 @@
                             <div class="relative h-96 p-4 w-auto object-cover"
                                 style="background-image: url(https://img.freepik.com/free-photo/industrial-crane-blue-sky_181624-30229.jpg?t=st=1715860429~exp=1715864029~hmac=d5092a52285865f240164b84bf1e0d1f434e1580241a6583966a4fa0ce9076b9&w=1380); background-repeat:  no-repeat; background-size: cover; background-position: center">
                                 <div
-                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 flex items-center p-4 justify-center group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all overflow-y-scroll overflow-x-hidden duration-300 overflow-auto no-scrollbar ">
+                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
                                         <div class="text-white">
                                             <h1 class="text-white font-semibold">Offset Printing
@@ -375,7 +375,7 @@
                             <div class="relative h-96 p-4 w-auto object-cover"
                                 style="background-image: url(https://img.freepik.com/free-photo/industrial-crane-blue-sky_181624-30229.jpg?t=st=1715860429~exp=1715864029~hmac=d5092a52285865f240164b84bf1e0d1f434e1580241a6583966a4fa0ce9076b9&w=1380); background-repeat:  no-repeat; background-size: cover; background-position: center">
                                 <div
-                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 flex items-center p-4 justify-center group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all overflow-y-scroll overflow-x-hidden duration-300 overflow-auto no-scrollbar ">
+                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
                                         <div class="text-white">
                                             <h1 class="text-white font-semibold">Offset Printing
@@ -434,7 +434,7 @@
                             <div class="relative h-96 p-4 w-auto object-cover"
                                 style="background-image: url(https://img.freepik.com/free-photo/industrial-crane-blue-sky_181624-30229.jpg?t=st=1715860429~exp=1715864029~hmac=d5092a52285865f240164b84bf1e0d1f434e1580241a6583966a4fa0ce9076b9&w=1380); background-repeat:  no-repeat; background-size: cover; background-position: center">
                                 <div
-                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 flex items-center p-4 justify-center group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all overflow-y-scroll overflow-x-hidden duration-300 overflow-auto no-scrollbar ">
+                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
                                         <div class="text-white">
                                             <h1 class="text-white font-semibold">Offset Printing
@@ -493,7 +493,7 @@
                             <div class="relative h-96 p-4 w-auto object-cover"
                                 style="background-image: url(https://img.freepik.com/free-photo/industrial-crane-blue-sky_181624-30229.jpg?t=st=1715860429~exp=1715864029~hmac=d5092a52285865f240164b84bf1e0d1f434e1580241a6583966a4fa0ce9076b9&w=1380); background-repeat:  no-repeat; background-size: cover; background-position: center">
                                 <div
-                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 flex items-center p-4 justify-center group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all overflow-y-scroll overflow-x-hidden duration-300 overflow-auto no-scrollbar ">
+                                    class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
                                         <div class="text-white">
                                             <h1 class="text-white font-semibold">Offset Printing
@@ -549,10 +549,17 @@
 
             </div>
             <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next sliderHoverNextBtn">
+                <img src="{{ asset('images/icon/right-arrow-normal.png') }}" alt="right-icon">
+            </div>
+            <div class="swiper-button-prev sliderHoverPrevBtn">
+                <img src="{{ asset('images/icon/left-arrow-normal.png') }}" alt="left-icon">
+            </div>
         </div>
     </div>
+</div>
+<div class="bg-black w-full max-w-7xl m-auto">
+    <hr>
 </div>
 
 

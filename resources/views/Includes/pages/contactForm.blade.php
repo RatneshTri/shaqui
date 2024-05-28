@@ -1,5 +1,4 @@
-<div
-    class="text-gray-700 body-font rounded-3xl overflow-hidden border mt-10 mb-10 relative max-w-screen-xl w-full m-auto">
+<div class="text-gray-700 body-font rounded-3xl overflow-hidden border my-10 relative max-w-screen-xl w-full m-auto">
     <div class="w-full m-auto grid grid-rows-2 lg:flex">
         <div class="w-full lg:w-1/2 h-1/2 lg:h-full">
             <div class="absolute inset-0 bg-gray-300">
@@ -36,4 +35,7 @@
             </div>
         </div>
     </div>
+</div>
+<div class="bg-black w-full max-w-7xl m-auto">
+    <hr>
 </div>

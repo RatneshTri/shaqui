@@ -1,4 +1,4 @@
-<div class="max-w-screen-xl m-auto mt-10 w-full p-10">
+<div class="max-w-screen-xl m-auto mt-20 w-full">
     <div class="flex items-stretch mb-5 bg-[#041426] text-white">
         <div class="mx-auto w-full py-10">
             <div class="flex items-center justify-center flex-row p-5">
@@ -32,7 +32,7 @@
         <div class="mySwiper-getQ">
             <div class="swiper-wrapper mx-auto flex items-center justify-center">
                 <div class="swiper-slide">
-                    <div class="h-36 w-36">
+                    <div class="h-24 w-24">
                         <img src="https://img.freepik.com/premium-photo/silhouette-engineer-worker-building-site-construction-site-sunset-evening-time_29315-628.jpg?w=1380"
                             alt="logo" class="block object-cover rounded-full">
                     </div>
@@ -111,8 +111,9 @@
             </div>
         </div>
     </div>
-
-
+</div>
+<div class="bg-black w-full max-w-7xl m-auto">
+    <hr>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
@@ -130,10 +131,6 @@
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
-        // pagination: {
-        //     el: ".swiper-pagination",
-        //     clickable: true,
-        // },
         autoplay: {
             delay: 2000,
         },

@@ -140,6 +140,9 @@
         </div>
     </div>
 </div>
+<div class="bg-black w-full max-w-7xl m-auto">
+    <hr>
+</div>
 
 
 <script>
