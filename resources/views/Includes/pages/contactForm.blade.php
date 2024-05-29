@@ -15,14 +15,14 @@
                         creative partner!
                     </h2>
                     <div class="flex space-x-4 w-full items-stretch justify-stretch mb-4 mt-4">
-                        <input
+                        <input id="formName"
                             class="bg-transparent border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 w-full"
                             placeholder="Name" type="text">
-                        <input
+                        <input id="formEmail"
                             class="bg-transparent border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 w-full"
                             placeholder="Email Address" type="email">
                     </div>
-                    <textarea
+                    <textarea id="formMessage"
                         class="bg-transparent border border-gray-400 focus:outline-none h-32 focus:border-indigo-500 text-base px-4 py-2 mb-4 resize-none"
                         placeholder="Message"></textarea>
                     <button

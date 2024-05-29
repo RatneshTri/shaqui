@@ -29,7 +29,7 @@
     </div>
 
     <div class="relative">
-        <div class="mySwiper-getQ h-12 md:h-auto">
+        <div class="mySwiper-getQ h-12 md:h-auto mx-2 lg:mx-20">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="h-12 w-12 md:h-36 md:w-36">
