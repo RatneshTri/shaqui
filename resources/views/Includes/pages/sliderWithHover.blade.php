@@ -1,12 +1,12 @@
 <div class="max-w-screen-xl w-full m-auto mt-20 bg-[#EDF4FF]">
-    <div class="flex justify-between m-4 p-4 pt-10">
+    <div class="flex flex-col lg:flex-row justify-between m-4 p-4 pt-10">
         <div class="w-full">
             <h1 class="font-semibold text-4xl lg:text-6xl hollow-text">
                 Flawless Printing Solutions
             </h1>
         </div>
         <div class="w-full">
-            <p class="font-semibold text-xl lg:texl-5xl">
+            <p class="font-semibold text-lg mt-5 lg:mt-0 md:text-2xl lg:texl-5xl">
                 Delivering our clients more projects clarity, greater insights, and less chaos.
             </p>
         </div>
@@ -549,12 +549,12 @@
 
             </div>
             <div class="swiper-pagination"></div>
-            <div class="swiper-button-next sliderHoverNextBtn">
-                <img src="{{ asset('images/icon/right-arrow-normal.png') }}" alt="right-icon">
-            </div>
-            <div class="swiper-button-prev sliderHoverPrevBtn">
-                <img src="{{ asset('images/icon/left-arrow-normal.png') }}" alt="left-icon">
-            </div>
+            <button class="swiper-button-next sliderHoverNextBtn">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <button class="swiper-button-prev sliderHoverPrevBtn">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
         </div>
     </div>
 </div>
@@ -580,7 +580,7 @@
             clickable: true,
         },
         breakpoints: {
-            380: {
+            300: {
                 slidesPerView: 1,
                 spaceBetween: 20,
             },
@@ -589,7 +589,7 @@
                 spaceBetween: 20,
             },
             768: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 spaceBetween: 40,
             },
             1024: {

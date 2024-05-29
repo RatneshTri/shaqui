@@ -1,7 +1,7 @@
 <div class="max-w-screen-xl w-full m-auto mx-auto mt-20">
-    <div class="m-auto mx-auto mb-10">
+    <div class="m-auto mx-2 mb-10">
         <div class="text-[#FF961F]">RECENTS PROJECTS
-            <div class="inline-block border-b-2 border-black w-auto"></div>
+            <div class="inline-block border-b-2 border-black w-36"></div>
         </div>
         <div class="mx-auto p-2 font-thin text-left text-3xl md:text-4xl">Experience online <br> printing
             tailored to you</div>
@@ -51,15 +51,15 @@
                                 <img src="{{ url('/images/folder1/1.png') }}" alt="img"
                                     class="h-96 w-full object-contain">
                                 <img src="{{ url('/images/folder1/2.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder1/3.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder1/4.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder1/5.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder1/6.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                             </div>
                         </div>
                         <div class="hidden" id="folder2">
@@ -68,15 +68,15 @@
                                 <img src="{{ url('/images/folder2/1.png') }}" alt="img"
                                     class="h-96 w-full object-contain">
                                 <img src="{{ url('/images/folder2/2.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder2/3.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder2/4.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder2/5.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder2/6.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                             </div>
                         </div>
                         <div class="hidden" id="folder3">
@@ -85,15 +85,15 @@
                                 <img src="{{ url('/images/folder3/1.png') }}" alt="img"
                                     class="h-96 w-full object-contain">
                                 <img src="{{ url('/images/folder3/2.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder3/3.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder3/4.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder3/5.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder3/6.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                             </div>
                         </div>
                         <div class="hidden" id="folder4">
@@ -102,15 +102,15 @@
                                 <img src="{{ url('/images/folder4/1.png') }}" alt="img"
                                     class="h-96 w-full object-contain">
                                 <img src="{{ url('/images/folder4/2.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder4/3.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder4/4.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder4/5.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder4/6.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                             </div>
                         </div>
                         <div class="hidden" id="folder5">
@@ -119,15 +119,15 @@
                                 <img src="{{ url('/images/folder5/1.png') }}" alt="img"
                                     class="h-96 w-full object-contain">
                                 <img src="{{ url('/images/folder5/2.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder5/3.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder5/4.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder5/5.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder5/6.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                             </div>
                         </div>
                         <div class="hidden" id="folder6">
@@ -136,15 +136,15 @@
                                 <img src="{{ url('/images/folder6/1.png') }}" alt="img"
                                     class="h-96 w-full object-contain">
                                 <img src="{{ url('/images/folder6/2.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder6/3.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder6/4.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder6/5.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder6/6.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                             </div>
                         </div>
                         <div class="hidden" id="folder7">
@@ -153,15 +153,15 @@
                                 <img src="{{ url('/images/folder7/1.png') }}" alt="img"
                                     class="h-96 w-full object-contain">
                                 <img src="{{ url('/images/folder7/2.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder7/3.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder7/4.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder7/5.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder7/6.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                             </div>
                         </div>
                         <div class="hidden" id="folder8">
@@ -170,15 +170,15 @@
                                 <img src="{{ url('/images/folder8/1.png') }}" alt="img"
                                     class="h-96 w-full object-contain">
                                 <img src="{{ url('/images/folder8/2.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder8/3.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder8/4.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder8/5.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                                 <img src="{{ url('/images/folder8/6.png') }}" alt="img"
-                                    class="h-96 w-full object-contain">
+                                    class="h-96 w-full object-contain hidden md:block">
                             </div>
                         </div>
                     </div>

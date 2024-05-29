@@ -3,7 +3,7 @@
         <div class="flex flex-row items-center justify-center font-semibold text-4xl lg:text-6xl m-auto p-4">
             Our Work Gallery
         </div>
-        <div class="grid sm:flex sm:flex-row">
+        <div class="grid grid-cols-1 sm:flex sm:flex-row">
             <div class="w-full sm:w-1/2">
                 <div class="grid grid-cols-2 gap-2 h-full max-w-screen-xl w-full m-auto">
                     <div>
@@ -28,7 +28,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full sm:w-1/2 sm:ml-2 h-full">
+            <div class="w-full sm:w-1/2 sm:ml-2 mt-2 sm:mt-0 h-full">
                 <div class="">
                     <div class="swiper mySwiper  mySwi">
                         <div class="swiper-wrapper">

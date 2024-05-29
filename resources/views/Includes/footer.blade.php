@@ -14,11 +14,11 @@
             <div class="flex w-full space-x-4 mt-4 mb-4 items-center justify-start">
                 <div class="mr-4">
                     <i class="fa-solid fa-phone-volume"></i>
-                    <a class="px-2" href="#">(+97)1502022045</a>
+                    <a class="px-2" href="tel:+971502022045">(+97)1502022045</a>
                 </div>
                 <div>
                     <i class="fa-regular fa-envelope"></i>
-                    <a class="px-2" href="#">sales@shaqui.com</a>
+                    <a class="px-2" href="mailto:sales@shaqui.com" target="_blank">sales@shaqui.com</a>
                 </div>
             </div>
         </div>
@@ -49,33 +49,33 @@
             <div class="sm:flex sm:flex-row-reverse hidden animate-open-menu">
                 <div class="flex-col">
                     <div class="ml-4 pb-2">
-                        <a href="#">Facebook</a>
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
                     </div>
                     <div class="ml-4 pb-2">
-                        <a href="#">TwitterX</a>
+                        <a href="https://x.com/" target="_blank">TwitterX</a>
                     </div>
                     <div class="ml-4 pb-2">
-                        <a href="#">Instagram</a>
+                        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
                     </div>
                     <div class="ml-4 pb-2">
-                        <a href="#">LinkedIn</a>
+                        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
                     </div>
                     <div class="ml-4 pb-2">
                         <a href="https://www.youtube.com/" target="_blank">YouTube</a>
                     </div>
                 </div>
                 <div>
-                    <div class="ml-4 pb-2">
-                        <i class="fa-brands fa-facebook"></i>
+                    <div class="ml-4 pb-2"><a target="_blank" href="https://www.facebook.com/">
+                            <i class="fa-brands fa-facebook"></i>
                     </div>
-                    <div class="ml-4 pb-2">
-                        <i class="fa-brands fa-x-twitter"></i>
+                    <div class="ml-4 pb-2"><a target="_blank" href="https://x.com/">
+                            <i class="fa-brands fa-x-twitter"></i>
                     </div>
-                    <div class="ml-4 pb-2">
-                        <i class="fa-brands fa-instagram"></i>
+                    <div class="ml-4 pb-2"><a target="_blank" href="https://www.instagram.com/">
+                            <i class="fa-brands fa-instagram"></i>
                     </div>
-                    <div class="ml-4 pb-2">
-                        <i class="fa-brands fa-linkedin"></i>
+                    <div class="ml-4 pb-2"><a target="_blank" href="https://in.linkedin.com/">
+                            <i class="fa-brands fa-linkedin"></i>
                     </div>
                     <div class="ml-4 pb-2"><a target="_blank" href="https://www.youtube.com/"><i
                                 class="fa-brands fa-youtube"></i></a>
@@ -84,17 +84,17 @@
             </div>
             <div
                 class="sm:hidden flex flex-row w-full items-center justify-between mx-auto p-4 -mb-12 animate-open-menu">
-                <div class="ml-4 pb-2"><a href="#"></a>
-                    <i class="fa-brands fa-facebook"></i>
+                <div class="ml-4 pb-2"><a target="_blank" href="https://www.facebook.com/">
+                        <i class="fa-brands fa-facebook"></i>
                 </div>
-                <div class="ml-4 pb-2">
-                    <i class="fa-brands fa-x-twitter"></i>
+                <div class="ml-4 pb-2"><a target="_blank" href="https://x.com/">
+                        <i class="fa-brands fa-x-twitter"></i>
                 </div>
-                <div class="ml-4 pb-2">
-                    <i class="fa-brands fa-instagram"></i>
+                <div class="ml-4 pb-2"><a target="_blank" href="https://www.instagram.com/">
+                        <i class="fa-brands fa-instagram"></i>
                 </div>
-                <div class="ml-4 pb-2">
-                    <i class="fa-brands fa-linkedin"></i>
+                <div class="ml-4 pb-2"><a target="_blank" href="https://in.linkedin.com/">
+                        <i class="fa-brands fa-linkedin"></i>
                 </div>
                 <div class="ml-4 pb-2"><a target="_blank" href="https://www.youtube.com/"><i
                             class="fa-brands fa-youtube"></i></a>

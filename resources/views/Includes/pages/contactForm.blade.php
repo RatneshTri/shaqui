@@ -11,12 +11,10 @@
         <div class="w-full lg:w-1/2 h-1/2 lg:h-full">
             <div class="container mx-auto flex">
                 <div class=" bg-black rounded-none p-8 flex flex-col md:ml-auto w-full relative z-10">
-                    <h2 class="text-white font-serif text-6xl mb-1 font-medium title-font">Say hi to Shaqui, your
-                        creative
-                        partner!
+                    <h2 class="text-white font-serif text-6xl mb-1 dancing-script-contact">Say hi to Shaqui, your
+                        creative partner!
                     </h2>
                     <div class="flex space-x-4 w-full items-stretch justify-stretch mb-4 mt-4">
-
                         <input
                             class="bg-transparent border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 w-full"
                             placeholder="Name" type="text">
@@ -29,8 +27,6 @@
                         placeholder="Message"></textarea>
                     <button
                         class="text-white bg-indigo-500 border-0 py-4 px-6 focus:outline-none hover:bg-indigo-600 text-lg lg:w-1/3 items-center w-auto justify-center text-nowrap">Submit</button>
-
-
                 </div>
             </div>
         </div>

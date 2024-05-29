@@ -39,11 +39,12 @@
                 <div class="hidden md:flex justify-end w-full mb-2">
                     <div class="mr-4">
                         <i class="fa-solid fa-phone-volume"></i>
-                        <a class="px-2 text-[#8ABCDE] font-bold" href="#">(+97)1502022045</a>
+                        <a class="px-2 text-[#8ABCDE] font-bold" href="tel:+971502022045">(+97)1502022045</a>
                     </div>
                     <div>
                         <i class="fa-regular fa-envelope"></i>
-                        <a class="pl-2 text-[#8ABCDE] font-bold" href="#">sales@shaqui.com</a>
+                        <a class="pl-2 text-[#8ABCDE] font-bold" href="mailto:sales@shaqui.com"
+                            target="_blank">sales@shaqui.com</a>
                     </div>
                 </div>
                 <div class="hidden w-full md:block md:w-auto" id="navbar-default">
@@ -111,9 +112,6 @@
     }
 
     document.addEventListener('DOMContentLoaded', initApp)
-
-
-
 
     function toTop() {
         window.scrollTo({
