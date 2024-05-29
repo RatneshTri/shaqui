@@ -70,26 +70,22 @@
         font-size: 25px;
     }
 
-    @media only screen and (min-width: 320px) {
+    @media only screen and (max-width: 320px) {
         .swiper-button-prev.heroPrevBtn {
             /* left: var(--swiper-navigation-left-offset, 70%); */
-            left: 72%;
-        }
-    }
-    @media only screen and (min-width: 400px) {
-        .swiper-button-prev.heroPrevBtn {
-            left: var(--swiper-navigation-left-offset, 70%);
             /* left: 70%; */
+            display: none;
         }
     }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 640px) {
         .swiper-button-prev.heroPrevBtn {
-            left: var(--swiper-navigation-left-offset, 80%);
+            /* left: var(--swiper-navigation-left-offset, 80%); */
+            display: none;
         }
     }
     @media only screen and (max-width: 768px) {
         .swiper-button-prev.heroPrevBtn {
-            left: var(--swiper-navigation-left-offset, 10%);
+            left: var(--swiper-navigation-left-offset, 100px);
         }
     }
     @media only screen and (max-width: 1024px) {

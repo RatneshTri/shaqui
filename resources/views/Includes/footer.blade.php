@@ -1,51 +1,30 @@
-<footer class="bg-white rounded-none max-w-screen-xl m-auto dark:bg-gray-800 p-4">
+<footer class="bg-white rounded-none max-w-screen-xl mx-auto dark:bg-gray-800 p-4">
     <div class="w-full mx-auto"><img
             src="https://st2.depositphotos.com/4035913/6124/i/450/depositphotos_61243831-stock-photo-letter-s-logo.jpg"
             class="w-32 h-32" alt="logo"></div>
     <div class="sm:flex grid max-w-screen-xl mx-auto mb-10 ">
-        <div class="sm:w-1/2 w-auto">
-            <p class="text-wrap">SHAQUI was established in the eyar 2018 in Dubai with the vision of becoming the No. 1
+        <div class="sm:w-1/2 w-auto mx-auto">
+            <p class="text-wrap text-left">SHAQUI was established in the year 2018 in Dubai with the vision of becoming
+                the No. 1
                 Customizations
                 Company in the UAE Currently, SHAQUI is a top solution provider for steel, metal and aluminium works,
                 along with providing best in class printing services.</p>
-            <h1 class=" font-bold mt-4">Sheikh Hamd, Building Floor M, Suite #13 Salah Al Din Street, Al Khabaisi,
+            <p class="text-left font-bold mt-4">Sheikh Hamd, Building Floor M, Suite #13 Salah Al Din Street, Al
+                Khabaisi,
                 Dubai, UAE
-            </h1>
-            <div class="flex w-full space-x-4 mt-4 mb-4 items-center justify-start">
-                <div class="mr-4">
+            </p>
+            <div class="flex flex-row w-full space-x-4 mt-4 mb-4 items-start justify-start">
+                <div class="mx-auto mr-4 flex items-center justify-center">
                     <i class="fa-solid fa-phone-volume"></i>
-                    <a class="px-2" href="tel:+971502022045">(+97)1502022045</a>
+                    <a class="px-1" href="tel:+971502022045">(+97)1502022045</a>
                 </div>
-                <div>
+                <div class="mx-auto mr-4 flex items-center justify-center">
                     <i class="fa-regular fa-envelope"></i>
-                    <a class="px-2" href="mailto:sales@shaqui.com" target="_blank">sales@shaqui.com</a>
+                    <a class="px-1" href="mailto:sales@shaqui.com" target="_blank">sales@shaqui.com</a>
                 </div>
             </div>
         </div>
         <div class="sm:w-1/2 w-auto">
-            {{-- <div class="flex flex-col items-end ">
-                <div class="flex justify-between">
-                    <i class="fa-brands fa-facebook h-4 w-8"></i>
-                    <a class="px-4" href="#">Facebook</a>
-                </div>
-                <div class="flex justify-between">
-                    <i class="fa-brands fa-x-twitter h-4 w-8"></i>
-                    <a class="px-4" href="#">TwitterX</a>
-                </div>
-                <div class="flex justify-between">
-                    <i class="fa-brands fa-instagram h-4 w-8"></i>
-                    <a class="px-4" href="#">Instagram</a>
-                </div>
-                <div class="flex justify-between">
-                    <i class="fa-brands fa-linkedin h-4 w-8"></i>
-                    <a class="px-4" href="#">LinkedIn</a>
-                </div>
-                <div class="flex justify-between">
-                    <i class="fa-brands fa-youtube h-4 w-8"></i>
-                    <a class="px-4" href="#">YouTube</a>
-                </div>
-
-            </div> --}}
             <div class="sm:flex sm:flex-row-reverse hidden animate-open-menu">
                 <div class="flex-col">
                     <div class="ml-4 pb-2">

@@ -27,7 +27,7 @@
             <div class="swiper-slide">
                 <div
                     class="md:pt-40 pt-20 pb-10 w-full items-center m-auto bg-[url('https://www.kayak.com/news/wp-content/uploads/sites/19/2023/06/DEST_UAE_DUBAI_Dubai-Marina_shutterstock-portfolio_410869147.jpg')] bg-no-repeat bg-covers">
-                    <div class="container mx-auto px-8 lg:flex ">
+                    <div class="container mx-auto px-8 pt-10 lg:flex">
 
                         <div class="text-center lg:text-left max-w-screen-xl w-full m-auto">
                             <h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none text-white">Turning your

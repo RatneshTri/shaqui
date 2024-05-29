@@ -3,24 +3,25 @@
         <div class="mx-auto w-full py-0 md:py-10">
             <div class="flex items-center justify-center flex-row p-5">
                 <div>
-                    <img src="https://img.freepik.com/premium-photo/silhouette-engineer-worker-building-site-construction-site-sunset-evening-time_29315-628.jpg?w=1380"
-                        alt="img" class="h-6 w-32 sm:h-16 sm:w-64 rounded-full mx-auto md:mx-20">
+                    <img src="https://img.freepik.com/free-photo/cute-family-playing-summer-field_1157-36897.jpg?t=st=1716981291~exp=1716984891~hmac=d3dd1952743a780d9e45f7846f961939ce46229a8adabdda9710b9ebb593fd91&w=1380"
+                        alt="img"
+                        class="h-6 w-32 sm:h-16 sm:w-64 rounded-full mx-auto md:mx-10 object-cover bg-blend-overlay">
                 </div>
                 <div>
-                    <h1 class="font-thin text-base mx-5 sm:text-2xl md:text-4xl lg:text-6xl">
-                        <span class="font-bold text-2xl md:text-4xl lg:text-6xl">Unique</span>
+                    <h1 class="font-thin text-base mx-1 sm:text-2xl md:text-4xl lg:text-6xl">
+                        <span class="font-bold text-xl sm:text-2xl md:text-4xl lg:text-6xl">Unique</span>
                         Ideas
                     </h1>
                 </div>
             </div>
-            <div class="flex items-center justify-center flex-row p-5">
+            <div class="flex items-center justify-center flex-row mx-5 py-3">
                 <div class="font-thin text-2xl md:text-4xl lg:text-6xl">
-                    <span class="font-bold text-2xl md:text-4xl lg:text-6xl">For Your</span>
+                    <span class="font-bold text-xl sm:text-2xl md:text-4xl lg:text-6xl">For Your</span>
                     Business.
                 </div>
                 <div>
                     <button
-                        class="bg-blue-500 hover:bg-blue-700 text-white font-normal text-sm text-nowrap sm:py-2 md:h-12 md:px-4 h-6 px-4 rounded-full">
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-normal text-sm text-nowrap sm:py-2 sm:h-10 md:h-12 md:px-4 h-6 px-4 rounded-full">
                         GET QUOTATION
                     </button>
                 </div>
@@ -93,7 +94,7 @@
 
     <div class="h-full">
         <div
-            class="mt-5 md:mt-10 mb-10 p-20 bg-[url('https://img.freepik.com/free-photo/heavy-machinery-used-construction-industry-engineering_23-2151307721.jpg?t=st=1716871493~exp=1716875093~hmac=c1a6ff1fc68a1cbc501fcaedf1e6f1e3b14942d221996547329084b7b989ff92&w=1380')] bg-no-repeat bg-cover bg-blend-overlay">
+            class="mt-5 md:mt-10 mb-10 p-10 md:p-20 bg-[url('https://img.freepik.com/free-photo/heavy-machinery-used-construction-industry-engineering_23-2151307721.jpg?t=st=1716871493~exp=1716875093~hmac=c1a6ff1fc68a1cbc501fcaedf1e6f1e3b14942d221996547329084b7b989ff92&w=1380')] bg-no-repeat bg-cover bg-blend-overlay">
             <div class="flex flex-col items-start justify-start">
                 <h1 class="font-semibold text-xl sm:text-2xl md:text-4xl lg:text-7xl mb-5">
                     Ready to build together?

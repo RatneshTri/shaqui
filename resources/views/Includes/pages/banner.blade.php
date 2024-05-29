@@ -1,19 +1,24 @@
 <div class="max-w-screen-xl w-full m-auto mt-20 p-4">
     <div class="m-auto">
-        <div class="flex mx-auto mb-10">
-            <div class="w-2/3">
+        <div class="flex flex-col-reverse md:flex-row mx-auto mb-10">
+            <div class="w-full md:w-2/3">
                 <div>
-                    <p class="font-monospace font-light text-left text-lg">A modern and creative colective of the new
+                    <p class="font-monospace font-light text-center md:text-left text-base md:text-lg">A modern and
+                        creative colective
+                        of
+                        the new
                         age.</p>
-                    <p class="font-semibold text-2xl md:text-4xl lg:text-6xl">We're dedicated to making your printing
+                    <p class="font-semibold text-center md:text-left text-2xl md:text-4xl lg:text-6xl">We're dedicated to
+                        making your
+                        printing
                         needs easy and
                         simple.</p>
                 </div>
             </div>
-            <div class="w-1/3">
+            <div class="w-full md:w-1/3">
                 <div class="flex items-end justify-center">
                     <img src="https://img.icons8.com/?size=100&id=7gn1JUOaj7KZ&format=png&color=000000" alt="img"
-                        class="mt-10">
+                        class="mt-0 md:mt-10">
                 </div>
             </div>
         </div>
