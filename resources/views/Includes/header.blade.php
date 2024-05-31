@@ -21,7 +21,7 @@
                 {{-- <button class="text-3xl self-end px-6">
                     &times;
                 </button> --}}
-                <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+                <nav class="flex min-h-screen flex-col items-center py-8 font-sans" aria-label="mobile">
                     <a href="#home"
                         class="w-full py-6 text-center hover:opacity-10 border rounded-lg bg-gray-400">Home</a>
                     <a href="#aboutus"
@@ -47,7 +47,7 @@
                             target="_blank">sales@shaqui.com</a>
                     </div>
                 </div>
-                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <div class="hidden w-full md:block md:w-auto font-sans" id="navbar-default">
                     <ul
                         class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         <li>
@@ -76,18 +76,18 @@
                 </div>
             </div>
         </div>
+        <div class="fixed top-[750px] left-0 mx-auto z-20">
+            <button onclick="toTop()"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+                <p class="-rotate-90 mt-7">Back to top</p>
+            </button>
+        </div>
+        <div class="fixed top-[780px] right-10 mx-auto z-20">
+            <div><a href="https://wa.me/+971502022045" target="_blank"><img
+                        src="{{ asset('images/icon/whatsapp.png') }}" alt="whatsapp-icon" class="w-[50px] h-[50px]"></a>
+            </div>
+        </div>
 </nav>
-<div class="fixed top-[700px] mx-auto z-20">
-    <button onclick="toTop()"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
-        <p class="-rotate-90 mt-7">Back to top</p>
-    </button>
-</div>
-<div
-    class="fixed top-[700px] left-[280px] sm:left-[600px] lg:left-[950px] md:left-[700px] xl:left-[1250px] 2xl:left-[1800px] mx-auto z-20">
-    <div><a href="https://wa.me/+971502022045" target="_blank"><img src="{{ asset('images/icon/whatsapp.png') }}"
-                alt="" class="w-[50px] h-[50px]"></a></div>
-</div>
-</div>
+
 
 <script>
     function toggleMenu() {

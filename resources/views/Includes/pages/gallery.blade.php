@@ -1,6 +1,6 @@
-<div class="max-w-screen-xl m-auto mt-20 w-full">
+<div class="max-w-screen-xl mx-auto mt-20 w-full h-full">
     <div>
-        <div class="flex flex-row items-center justify-center font-semibold text-4xl lg:text-6xl m-auto p-4">
+        <div class="flex flex-row items-center justify-center font-medium text-4xl lg:text-6xl mb-6 mx-auto p-4">
             Our Work Gallery
         </div>
         <div class="grid grid-cols-1 sm:flex sm:flex-row">

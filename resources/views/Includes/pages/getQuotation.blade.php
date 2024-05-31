@@ -1,4 +1,4 @@
-<div class="max-w-screen-xl m-auto mt-20 w-full">
+<div class="max-w-screen-2xl m-auto mt-20 w-full">
     <div class="flex items-stretch mb-5 bg-[#041426] text-white">
         <div class="mx-auto w-full py-0 md:py-10">
             <div class="flex items-center justify-center flex-row p-5">
@@ -29,9 +29,9 @@
         </div>
     </div>
 
-    <div class="relative">
-        <div class="mySwiper-getQ h-12 md:h-auto mx-2 lg:mx-20">
-            <div class="swiper-wrapper">
+    <div class="relative mx-10">
+        <div class="mySwiper-getQ h-12 md:h-auto mx-2 lg:mx-20 max-w-screen-lg">
+            <div class="swiper-wrapper mx-10">
                 <div class="swiper-slide">
                     <div class="h-12 w-12 md:h-36 md:w-36">
                         <img src="https://img.freepik.com/premium-photo/silhouette-engineer-worker-building-site-construction-site-sunset-evening-time_29315-628.jpg?w=1380"
@@ -84,10 +84,10 @@
         </div>
 
         <button class="swiper-button-next getQNextBtn">
-            <img src="{{ asset('images/icon/right.png') }}" alt="nexticon" class="hidden md:block">
+            <img src="{{ asset('images/icon/right-arrow.png') }}" alt="nexticon" class="hidden md:block">
         </button>
         <button class="swiper-button-prev getQPrevBtn">
-            <img src="{{ asset('images/icon/back-button.png') }}" alt="backicon" class="hidden md:block">
+            <img src="{{ asset('images/icon/back-arrow.png') }}" alt="backicon" class="hidden md:block">
         </button>
     </div>
 
@@ -116,7 +116,7 @@
 
 <script>
     const mySwiperQuo = new Swiper(".mySwiper-getQ", {
-        slidesPerView: 4,
+        slidesPerView: 5,
         spaceBetween: 30,
         cssMode: true,
         mousewheel: true,

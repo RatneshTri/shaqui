@@ -51,6 +51,7 @@
     }
     .swiper-button-next.heroNextBtn {
         top: var(--swiper-navigation-top-offset, 95%);
+        left: var(--swiper-navigation-left-offset, 95%);
         color: rgb(29, 16, 144);
         background-color: aliceblue;
         display: block;
@@ -69,35 +70,65 @@
         width: 50px;
         font-size: 25px;
     }
+    .swiper-button-next.heroNextBtn.swiper-button-disabled {
+        opacity: 50;
+        pointer-events: none;
+        color: white;
+        background-color: blue;
+    }
+    .swiper-button-prev.swiper-button-disabled {
+        opacity: 50;
+        pointer-events: none;
+        color: white;
+        background-color: blue;
+    }
+    .swiper-button-disabled {
+        opacity: 50;
+        pointer-events: none;
+        color: white;
+        background-color: blue;
+    }
+
+    .swiper-button-next.swiper-button-disabled,
+    .swiper-button-prev.swiper-button-disabled {
+        opacity: 0.35;
+        cursor: auto;
+        pointer-events: none;
+    }
 
     @media only screen and (max-width: 320px) {
         .swiper-button-prev.heroPrevBtn {
-            /* left: var(--swiper-navigation-left-offset, 70%); */
-            /* left: 70%; */
             display: none;
+        }
+        .swiper-button-next.heroNextBtn {
+            top: var(--swiper-navigation-top-offset, 92%);
+        }
+    }
+    @media only screen and (max-width: 425px) {
+        .swiper-button-prev.heroPrevBtn {
+            display: none;
+        }
+        .swiper-button-next.heroNextBtn {
+            top: var(--swiper-navigation-top-offset, 91%);
+            left: var(--swiper-navigation-left-offset, 86%);
         }
     }
     @media only screen and (max-width: 640px) {
         .swiper-button-prev.heroPrevBtn {
-            /* left: var(--swiper-navigation-left-offset, 80%); */
-            display: none;
+            left: var(--swiper-navigation-left-offset, 75%);
         }
     }
     @media only screen and (max-width: 768px) {
         .swiper-button-prev.heroPrevBtn {
-            left: var(--swiper-navigation-left-offset, 100px);
+            left: var(--swiper-navigation-left-offset, 86%);
+            top: var(--swiper-navigation-top-offset, 95%);
+        }
+        .swiper-button-next.heroNextBtn {
+            left: var(--swiper-navigation-left-offset, 92%);
+            top: var(--swiper-navigation-top-offset, 95%);
         }
     }
-    @media only screen and (max-width: 1024px) {
-        .swiper-button-prev.heroPrevBtn {
-            left: var(--swiper-navigation-left-offset, 90%);
-        }
-    }
-    @media only screen and (max-width: 1280px) {
-        .swiper-button-prev.heroPrevBtn {
-            left: var(--swiper-navigation-left-offset, 90%);
-        }
-    }
+
     .swiper-button-next.heroNextBtn::after {
         display: none !important;
     }
@@ -152,13 +183,13 @@
         height: 50px;
         width: 50px;
         font-size: 30px;
-        top: var(--swiper-navigation-top-offset, 20%);
+        right: var(--swiper-navigation-right-offset, 5%);
     }
     .swiper-button-prev.testiPrevBtn {
         height: 50px;
         width: 50px;
         font-size: 30px;
-        top: var(--swiper-navigation-top-offset, 20%);
+        left: var(--swiper-navigation-left-offset, 5%);
     }
 
     .dancing-script-contact {

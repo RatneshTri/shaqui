@@ -1,5 +1,5 @@
-<div class="max-w-screen-xl w-full m-auto mx-auto mt-20">
-    <div class="m-auto mx-2 mb-10">
+<div class="max-w-screen-2xl w-full m-auto mt-20">
+    <div class="m-auto mx-10 mb-10">
         <div class="text-[#FF961F]">RECENTS PROJECTS
             <div class="inline-block border-b-2 border-black w-36"></div>
         </div>
@@ -7,42 +7,42 @@
             tailored to you</div>
         <div class="mb-10">
             <div class="flex items-center justify-center mx-auto py-2 bg-[#E7F5FF] w-auto rounded-xl">
-                <div class="w-full mx-auto items-center justify-center flex flex-wrap gap-7">
+                <div class="w-full mx-auto items-center justify-center flex flex-wrap">
                     <button type="button" onclick="showImages('folder1')" id="tabs-primary-btn"
-                        class="btn focus:active active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-thin hover:border-gray-800 rounded-lg text-sm">
+                        class="btn focus:active active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-medium hover:border-gray-800 rounded-lg text-sm">
                         Banner Printing
                     </button>
                     <button type="button" onclick="showImages('folder2')"
-                        class="btn active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-thin hover:border-gray-800 rounded-lg text-sm">
+                        class="btn active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-medium hover:border-gray-800 rounded-lg text-sm">
                         Poster Printing
                     </button>
                     <button type="button" onclick="showImages('folder3')"
-                        class="btn active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-thin hover:border-gray-800 rounded-lg text-sm">
+                        class="btn active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-medium hover:border-gray-800 rounded-lg text-sm">
                         Flyer or Leaflets
                     </button>
                     <button type="button" onclick="showImages('folder4')"
-                        class="btn active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-thin hover:border-gray-800 rounded-lg text-sm">
+                        class="btn active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-medium hover:border-gray-800 rounded-lg text-sm">
                         Personalized Gifts
                     </button>
                     <button type="button" onclick="showImages('folder5')"
-                        class="btn active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-thin hover:border-gray-800 rounded-lg text-sm">
+                        class="btn active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-medium hover:border-gray-800 rounded-lg text-sm">
                         Sticker and Labels
                     </button>
                     <button type="button" onclick="showImages('folder6')"
-                        class="btn active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-thin hover:border-gray-800 rounded-lg text-sm">
+                        class="btn active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-medium hover:border-gray-800 rounded-lg text-sm">
                         Business Stationery
                     </button>
                     <button type="button" onclick="showImages('folder7')"
-                        class="btn active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-thin hover:border-gray-800 rounded-lg text-sm">
+                        class="btn active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-medium hover:border-gray-800 rounded-lg text-sm">
                         Visting cards
                     </button>
                     <button type="button" onclick="showImages('folder8')"
-                        class="btn active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-thin hover:border-gray-800 rounded-lg text-sm">
+                        class="btn active:shadow-inner inline-block h-12 px-2 mx-auto hover:bg-white hover:text-blue-500 text-black active:text-blue-700 font-medium hover:border-gray-800 rounded-lg text-sm">
                         Custom Clothing, Caps & Bags
                     </button>
                 </div>
             </div>
-            <div class="max-w-screen-xl w-full m-auto mx-auto">
+            <div class="max-w-screen-xl w-full">
                 <div class="">
                     <div class="" id="tab-container-wrap">
                         <div class="block" id="folder1">

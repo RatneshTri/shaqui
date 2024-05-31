@@ -1,19 +1,19 @@
-<div class="max-w-screen-xl w-full m-auto mt-20">
-    <div class="font-bold mx-auto p-2 flex flex-row">
+<div class="max-w-screen-2xl w-full mx-auto mt-20">
+    <div class="font-bold mx-10 p-2 flex flex-row">
         WHAT WE OFFERED
         <div class="inline-block border-b-4 border-black w-36"></div>
     </div>
-    <div class="grid md:flex">
+    <div class="grid md:flex mx-10">
 
         <div class="left w-full md:w-1/2">
             <div>
-                <p class="mx-auto p-2 font-semibold text-left text-3xl md:text-4xl lg:text-6xl">
+                <p class="mx-auto p-2 font-light text-left text-2xl md:text-3xl lg:text-5xl">
                     A Journey of printing excellence & innovation
                 </p>
             </div>
             <div class="">
                 <img src="https://img.freepik.com/free-vector/realistic-white-golden-geometric-background_79603-2032.jpg?w=1380&t=st=1716958342~exp=1716958942~hmac=6d08d844149fe57768a5823212899b15c61974cbbb91567958172ec24aa60d48"
-                    alt="img" class="mx-2 h-[250px] w-[600px]">
+                    alt="img" class="m-2 h-[250px] w-[600px]">
             </div>
         </div>
         <div class="right w-full md:w-1/2">

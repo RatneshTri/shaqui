@@ -1,4 +1,4 @@
-<div class="max-w-screen-xl w-full m-auto mt-20 bg-[#EDF4FF]">
+<div class="max-w-screen-2xl w-full m-auto mt-20 bg-[#EDF4FF]">
     <div class="flex flex-col lg:flex-row justify-between m-4 p-4 pt-10">
         <div class="w-full">
             <h1 class="font-semibold text-4xl lg:text-6xl hollow-text">
@@ -23,7 +23,7 @@
                                 <div
                                     class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
-                                        <div class="text-white">
+                                        <div class="text-white text-left">
                                             <h1 class="text-white font-semibold">Offset Printing
                                             </h1>
                                             <div>
@@ -82,7 +82,7 @@
                                 <div
                                     class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
-                                        <div class="text-white">
+                                        <div class="text-white text-left">
                                             <h1 class="text-white font-semibold">Offset Printing
                                             </h1>
                                             <div>
@@ -141,7 +141,7 @@
                                 <div
                                     class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
-                                        <div class="text-white">
+                                        <div class="text-white text-left">
                                             <h1 class="text-white font-semibold">Offset Printing
                                             </h1>
                                             <div>
@@ -200,7 +200,7 @@
                                 <div
                                     class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
-                                        <div class="text-white">
+                                        <div class="text-white text-left">
                                             <h1 class="text-white font-semibold">Offset Printing
                                             </h1>
                                             <div>
@@ -259,7 +259,7 @@
                                 <div
                                     class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
-                                        <div class="text-white">
+                                        <div class="text-white text-left">
                                             <h1 class="text-white font-semibold">Offset Printing
                                             </h1>
                                             <div>
@@ -318,7 +318,7 @@
                                 <div
                                     class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
-                                        <div class="text-white">
+                                        <div class="text-white text-left">
                                             <h1 class="text-white font-semibold">Offset Printing
                                             </h1>
                                             <div>
@@ -377,7 +377,7 @@
                                 <div
                                     class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
-                                        <div class="text-white">
+                                        <div class="text-white text-left">
                                             <h1 class="text-white font-semibold">Offset Printing
                                             </h1>
                                             <div>
@@ -436,7 +436,7 @@
                                 <div
                                     class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
-                                        <div class="text-white">
+                                        <div class="text-white text-left">
                                             <h1 class="text-white font-semibold">Offset Printing
                                             </h1>
                                             <div>
@@ -495,7 +495,7 @@
                                 <div
                                     class="m-auto box-border hover:border-white hover:h-full hover:w-auto hover:bg-black/50 p-4 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-y-scroll overflow-x-hidden no-scrollbar ">
                                     <div class="m-4">
-                                        <div class="text-white">
+                                        <div class="text-white text-left">
                                             <h1 class="text-white font-semibold">Offset Printing
                                             </h1>
                                             <div>
