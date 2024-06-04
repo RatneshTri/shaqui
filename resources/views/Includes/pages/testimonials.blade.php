@@ -1,9 +1,8 @@
-<div class="max-w-screen-2xl mx-auto bg-gray-100 py-10">
+<div class="mx-auto bg-gray-100 py-10">
     <div class="max-w-screen-xl mx-10 md:mx-auto bg-gray-100">
         <div class="flex items-center justify-center text-2xl md:text-4xl lg:text-6xl">
-            <p><span class="font-bold mx-5">Customer</span> Voices: <br><span class="font-bold"> Hear what </span>
-                they
-                says!</p>
+            <p><span class="font-bold mx-auto sm:mx-5">Customer</span> Voices: <br><span class="font-bold"> Hear what
+                </span> they says!</p>
         </div>
     </div>
     <div class="mx-2 p-2 mt-10">
