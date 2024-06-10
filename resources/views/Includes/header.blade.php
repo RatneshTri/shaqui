@@ -1,5 +1,5 @@
 <nav class="m-auto w-full bg-white border-gray-200 dark:bg-gray-900">
-    <div class="mx-16 2xl:mx-auto">
+    <div class="mx-2 lg:mx-16 2xl:mx-auto">
         <div class="max-w-screen-2xl mx-auto">
             <div class="flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -19,9 +19,6 @@
                 </button>
                 <section id="mobile-menu"
                     class="justify-center hidden w-full origin-top animate-open-menu flex-col bg-transparent text-2xl">
-                    {{-- <button class="text-3xl self-end px-6">
-                    &times;
-                </button> --}}
                     <nav class="flex min-h-screen flex-col items-center py-8 font-sans" aria-label="mobile">
                         <a href="#home"
                             class="w-full py-6 text-center hover:opacity-10 border rounded-lg bg-gray-400">Home</a>
@@ -83,7 +80,7 @@
                 </button>
             </div>
             <div class="fixed top-[780px] right-10 mx-auto z-20">
-                <div><a href="https://wa.me/+971502022045" target="_blank"><img
+                <div><a href="https://wa.me/971502022045" target="_blank"><img
                             src="{{ asset('images/icon/whatsapp.png') }}" alt="whatsapp-icon"
                             class="w-[50px] h-[50px]"></a>
                 </div>
@@ -91,7 +88,6 @@
         </div>
     </div>
 </nav>
-
 
 <script>
     function toggleMenu() {

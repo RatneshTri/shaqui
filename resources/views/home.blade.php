@@ -1,6 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
+
     @include('Includes.pages.hero')
 
 
@@ -28,4 +29,5 @@
 
     {{-- <section>contactform</section> --}}
     @include('Includes.pages.contactForm')
+
 @endsection

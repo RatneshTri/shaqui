@@ -1,8 +1,9 @@
 <footer class="bg-white rounded-none mx-auto dark:bg-gray-800 p-4 w-full">
-    <div class="mx-16 2xl:mx-auto">
-        <div class="w-full mx-auto max-w-screen-2xl"><img
-                src="https://st2.depositphotos.com/4035913/6124/i/450/depositphotos_61243831-stock-photo-letter-s-logo.jpg"
-                class="w-32 h-32" alt="logo"></div>
+    <div class="mx-auto sm:mx-16 2xl:mx-auto">
+        <div class="w-full mx-auto max-w-screen-2xl flex items-center justify-center sm:items-start sm:justify-start">
+            <img src="https://st2.depositphotos.com/4035913/6124/i/450/depositphotos_61243831-stock-photo-letter-s-logo.jpg"
+                class="w-32 h-32" alt="logo">
+        </div>
         <div class="sm:flex grid max-w-screen-2xl mx-auto mb-10 ">
             <div class="sm:w-1/2 w-auto mx-auto">
                 <p class="text-wrap text-center sm:text-left mx-auto">SHAQUI was established in the year 2018 in Dubai
@@ -14,14 +15,14 @@
                 <p class="text-left font-bold mt-4">Sheikh Hamd, Building Floor M, Suite #13 <br> Salah Al Din Street, Al
                     Khabaisi, Dubai, UAE
                 </p>
-                <div class="flex flex-row w-full mt-4 mb-4 items-start justify-start">
-                    <div class="mx-1 mr-4">
-                        <i class="fa-solid fa-phone-volume"></i>
-                        <a class="px-1" href="tel:+971502022045">(+97)1502022045</a>
+                <div class="flex flex-col sm:flex-row w-full mt-4 mb-4 items-start justify-start">
+                    <div class="sm:mx-1 mx-4 my-1 sm:mr-4 grid grid-flow-col">
+                        <i class="fa-solid fa-phone-volume mt-1"></i>
+                        <a class="px-1 mx-3 sm:mx-0" href="tel:+971502022045">(+97)1502022045</a>
                     </div>
-                    <div class="mx-1 mr-4">
-                        <i class="fa-regular fa-envelope"></i>
-                        <a class="px-1" href="mailto:sales@shaqui.com" target="_blank">sales@shaqui.com</a>
+                    <div class="sm:mx-1 mx-4 my-1 sm:mr-4 grid grid-flow-col">
+                        <i class="fa-regular fa-envelope mt-1"></i>
+                        <a class="px-1 mx-3 sm:mx-0" href="mailto:sales@shaqui.com" target="_blank">sales@shaqui.com</a>
                     </div>
                 </div>
             </div>

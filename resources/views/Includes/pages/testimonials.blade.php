@@ -143,9 +143,9 @@
         <div class="swiper-pagination"></div>
     </div>
 </div>
-<div class="bg-black w-full max-w-7xl m-auto">
+{{-- <div class="bg-black w-full max-w-7xl m-auto">
     <hr>
-</div>
+</div> --}}
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

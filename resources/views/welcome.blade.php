@@ -12,7 +12,7 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
     @vite('resources/css/app.css')
     <!-- Styles -->
-    <style>
+    {{-- <style>
         /* ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com */
         *,
         ::after,
@@ -899,7 +899,7 @@
                 --tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity))
             }
         }
-    </style>
+    </style> --}}
 </head>
 
 <body class="font-sans antialiased dark:bg-black dark:text-white/50">

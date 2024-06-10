@@ -49,18 +49,17 @@
             <div class="swiper-slide">Slide 4</div>
             <div class="swiper-slide">Slide 5</div>
         </div>
-        <button class="swiper-button-next swiper-button-disabled heroNextBtn active:text-white active:bg-blue-900">
+        <button class="swiper-button-next heroNextBtn active:text-white active:bg-blue-900">
             <i class="fa-solid fa-arrow-right" tabindex="0" area-disabled="false"></i>
         </button>
-        <button class="swiper-button-prev swiper-button-disabled heroPrevBtn active:text-white active:bg-blue-900">
+        <button class="swiper-button-prev heroPrevBtn active:text-white active:bg-blue-900">
             <i class="fa-solid fa-arrow-left" tabindex="0" area-disabled="true"></i>
         </button>
-        {{-- <div class="swiper-pagination"></div> --}}
     </div>
 </div>
-<div class="bg-black w-full max-w-7xl m-auto">
+{{-- <div class="bg-black w-full max-w-7xl m-auto">
     <hr>
-</div>
+</div> --}}
 
 
 <script>
@@ -69,7 +68,7 @@
     var mySwiper = new Swiper(".mySwip", {
         slidesPerView: 1,
         spaceBetween: 30,
-        loop: true,
+        // loop: true,
         pagination: {
             el: ".swiper-pagination",
             clickable: true,

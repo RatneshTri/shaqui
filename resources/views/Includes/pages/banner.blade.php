@@ -13,9 +13,9 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/3">
-                    <div class="flex items-end justify-center">
+                    <div class="flex items-center justify-center md:justify-end">
                         <img src="https://img.icons8.com/?size=100&id=7gn1JUOaj7KZ&format=png&color=000000"
-                            alt="img" class="mt-0 md:mt-10 lg:h-36 lg:w-36">
+                            alt="img" class="mt-0 md:mt-10 lg:h-4w-48 lg:w-48">
                     </div>
                 </div>
             </div>

@@ -1,12 +1,11 @@
 <div class="w-full mx-auto mt-20">
     <div class="mx-16 2xl:mx-auto">
         <div class="max-w-screen-2xl mx-auto">
-            <div class="font-bold flex flex-row mx-2">
+            <div class="font-bold flex flex-row mx-2 items-center">
                 WHAT WE OFFERED
-                <div class="inline-block border-b-4 border-black w-36"></div>
+                <div class="inline-block border-b-4 mx-4 border-black w-36"></div>
             </div>
             <div class="grid md:flex mx-auto">
-
                 <div class="left w-full md:w-1/2">
                     <div>
                         <p class="mx-auto p-2 font-light text-left text-2xl md:text-3xl lg:text-5xl">
@@ -121,6 +120,6 @@
         </div>
     </div>
 </div>
-<div class="bg-black w-full max-w-7xl m-auto">
+{{-- <div class="bg-black w-full max-w-7xl m-auto">
     <hr>
-</div>
+</div> --}}

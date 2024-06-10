@@ -1,27 +1,48 @@
 <div class="m-auto mt-10 w-full">
-    <div class="flex items-stretch mb-5 bg-[#041426] text-white">
-        <div class="mx-auto w-full py-0 md:py-10">
-            <div class="flex items-center justify-center flex-row py-5">
-                <div>
+    <div class="flex mb-5 bg-[#041426] text-white">
+        <div class="mx-auto w-full h-auto xl:h-[500px] flex items-center justify-center flex-col">
+
+            {{-- <div class="flex items-center mx-auto justify-center flex-row py-5">
+                <div class="p-2 xl:pr-10">
                     <img src="https://img.freepik.com/free-photo/cute-family-playing-summer-field_1157-36897.jpg?t=st=1716981291~exp=1716984891~hmac=d3dd1952743a780d9e45f7846f961939ce46229a8adabdda9710b9ebb593fd91&w=1380"
                         alt="img"
-                        class="h-6 w-32 sm:h-16 sm:w-64 rounded-full mx-auto md:mx-10 object-cover bg-blend-overlay">
+                        class="h-10 xl:w-80 w-28 sm:h-24 sm:w-72 rounded-full mx-auto object-cover bg-blend-overlay">
+                </div>
+                <div class="text-wrap font-thin text-base mx-1 sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl">
+                    <span class="font-bold text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl">Unique</span> Ideas
+                    <span class="font-bold text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl"><br>For
+                        Your</span> Business.
+                </div>
+                <div class="px-0 xl:pl-4">
+                    <button
+                        class="bg-blue-500 hover:bg-blue-700 text-white flex items-center justify-center font-normal text-sm text-nowrap sm:py-2 xl:text-2xl xl:font-medium h-6 px-4 xl:px-14 xl:py-9 rounded-full">
+                        GET QUOTATION
+                    </button>
+                </div>
+            </div> --}}
+
+
+            <div class="flex items-center mx-auto justify-center flex-row py-2 sm:py-5">
+                <div class="p-2 md:pr-10">
+                    <img src="https://img.freepik.com/free-photo/cute-family-playing-summer-field_1157-36897.jpg?t=st=1716981291~exp=1716984891~hmac=d3dd1952743a780d9e45f7846f961939ce46229a8adabdda9710b9ebb593fd91&w=1380"
+                        alt="img"
+                        class="h-10 xl:w-80 w-28 sm:h-24 sm:w-72 md:h-16 md:w-48 rounded-full mx-auto object-cover bg-blend-overlay">
                 </div>
                 <div>
-                    <h1 class="font-thin text-base mx-1 sm:text-2xl md:text-4xl lg:text-6xl">
-                        <span class="font-bold text-xl sm:text-2xl md:text-4xl lg:text-6xl">Unique</span>
+                    <h1 class="font-thin text-base mx-1 sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl">
+                        <span class="font-bold text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl">Unique</span>
                         Ideas
                     </h1>
                 </div>
             </div>
-            <div class="flex items-center justify-center flex-row mx-5 py-3">
-                <div class="font-thin text-2xl md:text-4xl lg:text-6xl">
-                    <span class="font-bold text-xl sm:text-2xl md:text-4xl lg:text-6xl">For Your</span>
+            <div class="flex items-center justify-center flex-row mx-0 py-2 sm:mx-5 sm:py-5 mb-5">
+                <div class="font-thin text-base sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl">
+                    <span class="font-bold text-base sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl">For Your</span>
                     Business.
                 </div>
-                <div>
+                <div class="px-0 xl:pl-4">
                     <button
-                        class="bg-blue-500 hover:bg-blue-700 text-white font-normal text-sm text-nowrap sm:py-2 sm:h-10 md:h-12 md:px-4 h-6 px-4 rounded-full">
+                        class="bg-blue-500 hover:bg-blue-700 text-white flex items-center justify-center font-normal text-sm text-nowrap sm:py-2 xl:text-2xl xl:font-medium h-6 px-4 md:px-5 md:py-4 xl:px-14 xl:py-9 rounded-full">
                         GET QUOTATION
                     </button>
                 </div>
@@ -76,9 +97,6 @@
                 </div>
             </div>
             <div class="swiper-pagination"></div>
-
-
-
             <!-- If we need scrollbar -->
             {{-- <div class="swiper-scrollbar"></div> --}}
         </div>
@@ -116,7 +134,7 @@
 
 <script>
     const mySwiperQuo = new Swiper(".mySwiper-getQ", {
-        slidesPerView: 5,
+        // slidesPerView: 5,
         spaceBetween: 30,
         cssMode: true,
         mousewheel: true,
@@ -128,6 +146,32 @@
         },
         autoplay: {
             delay: 2000,
+        },
+        breakpoints: {
+            300: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+            },
+            640: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 50,
+            },
+            1440: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+            },
+            2550: {
+                slidesPerView: 6,
+                spaceBetween: 50,
+            },
         },
     });
 </script>

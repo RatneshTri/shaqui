@@ -51,7 +51,7 @@
     }
     .swiper-button-next.heroNextBtn {
         top: var(--swiper-navigation-top-offset, 95%);
-        left: var(--swiper-navigation-left-offset, 95%);
+        left: var(--swiper-navigation-left-offset, 90%);
         color: rgb(29, 16, 144);
         background-color: aliceblue;
         display: block;
@@ -63,7 +63,7 @@
     .swiper-button-prev.heroPrevBtn {
         top: var(--swiper-navigation-top-offset, 95%);
         color: rgb(29, 16, 144);
-        left: var(--swiper-navigation-left-offset, 92%);
+        left: var(--swiper-navigation-left-offset, 87%);
         background-color: aliceblue;
         display: block;
         height: 50px;
@@ -94,11 +94,15 @@
         opacity: 0.35;
         cursor: auto;
         pointer-events: none;
+        color: blue;
+        background-color: white;
     }
 
     @media only screen and (min-width: 320px) {
         .swiper-button-prev.heroPrevBtn {
-            display: none;
+            display: block;
+            top: var(--swiper-navigation-top-offset, 95%);
+            left: var(--swiper-navigation-left-offset, 72%);
         }
         .swiper-button-next.heroNextBtn {
             top: var(--swiper-navigation-top-offset, 95%);
@@ -107,20 +111,24 @@
     }
     @media only screen and (min-width: 375px) {
         .swiper-button-prev.heroPrevBtn {
-            display: none;
+            display: block;
+            top: var(--swiper-navigation-top-offset, 95%);
+            left: var(--swiper-navigation-left-offset, 75%);
         }
         .swiper-button-next.heroNextBtn {
-            top: var(--swiper-navigation-top-offset, 94%);
+            top: var(--swiper-navigation-top-offset, 95%);
             left: var(--swiper-navigation-left-offset, 87%);
         }
     }
     @media only screen and (min-width: 425px) {
         .swiper-button-prev.heroPrevBtn {
-            display: none;
+            display: block;
+            top: var(--swiper-navigation-top-offset, 95%);
+            left: var(--swiper-navigation-left-offset, 75%);
         }
         .swiper-button-next.heroNextBtn {
-            top: var(--swiper-navigation-top-offset, 94%);
-            left: var(--swiper-navigation-left-offset, 88%);
+            top: var(--swiper-navigation-top-offset, 95%);
+            left: var(--swiper-navigation-left-offset, 86%);
         }
     }
     @media only screen and (min-width: 640px) {
@@ -132,44 +140,44 @@
         .swiper-button-prev.heroPrevBtn {
             display: block;
             top: var(--swiper-navigation-top-offset, 95%);
-            left: var(--swiper-navigation-left-offset, 87%);
+            left: var(--swiper-navigation-left-offset, 84%);
         }
         .swiper-button-next.heroNextBtn {
             top: var(--swiper-navigation-top-offset, 95%);
-            left: var(--swiper-navigation-left-offset, 93%);
+            left: var(--swiper-navigation-left-offset, 90%);
         }
     }
     @media only screen and (min-width: 1024px) {
         .swiper-button-prev.heroPrevBtn {
             display: block;
             top: var(--swiper-navigation-top-offset, 95%);
-            left: var(--swiper-navigation-left-offset, 89%);
+            left: var(--swiper-navigation-left-offset, 82%);
         }
         .swiper-button-next.heroNextBtn {
             top: var(--swiper-navigation-top-offset, 95%);
-            left: var(--swiper-navigation-left-offset, 93%);
+            left: var(--swiper-navigation-left-offset, 87%);
         }
     }
     @media only screen and (min-width: 1440px) {
         .swiper-button-prev.heroPrevBtn {
             display: block;
             top: var(--swiper-navigation-top-offset, 95%);
-            left: var(--swiper-navigation-left-offset, 90%);
+            left: var(--swiper-navigation-left-offset, 88%);
         }
         .swiper-button-next.heroNextBtn {
             top: var(--swiper-navigation-top-offset, 95%);
-            left: var(--swiper-navigation-left-offset, 93%);
+            left: var(--swiper-navigation-left-offset, 91%);
         }
     }
     @media only screen and (min-width: 2560px) {
         .swiper-button-prev.heroPrevBtn {
             display: block;
             top: var(--swiper-navigation-top-offset, 95%);
-            left: var(--swiper-navigation-left-offset, 91%);
+            left: var(--swiper-navigation-left-offset, 75%);
         }
         .swiper-button-next.heroNextBtn {
             top: var(--swiper-navigation-top-offset, 95%);
-            left: var(--swiper-navigation-left-offset, 93%);
+            left: var(--swiper-navigation-left-offset, 77%);
         }
     }
 

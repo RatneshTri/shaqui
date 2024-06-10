@@ -2,8 +2,8 @@
     <div class="mx-16 2xl:mx-auto">
         <div class="max-w-screen-2xl mx-auto">
             <div class="m-auto mb-10">
-                <div class="text-[#FF961F]">RECENTS PROJECTS
-                    <div class="inline-block border-b-2 border-black w-36"></div>
+                <div class="text-[#FF961F] flex flex-row mx-2 items-center">RECENTS PROJECTS
+                    <div class="inline-block border-b-2 mx-4 border-black w-36"></div>
                 </div>
                 <div class="mx-auto py-4 font-thin text-left text-3xl md:text-4xl">Experience online <br> printing
                     tailored to you</div>
@@ -191,9 +191,9 @@
         </div>
     </div>
 </div>
-<div class="bg-black w-full max-w-7xl m-auto">
+{{-- <div class="bg-black w-full max-w-7xl m-auto">
     <hr>
-</div>
+</div> --}}
 
 
 <script>

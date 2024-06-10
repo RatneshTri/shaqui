@@ -3,7 +3,7 @@
         <div class="max-w-screen-2xl mx-auto">
             <div class="flex flex-col lg:flex-row justify-between pt-10 pb-5">
                 <div class="w-full mx-auto">
-                    <h1 class="font-semibold text-3xl lg:text-5xl hollow-text">
+                    <h1 class="font-semibold text-3xl lg:text-5xl 2xl:text-7xl hollow-text">
                         Flawless Printing Solutions
                     </h1>
                 </div>
